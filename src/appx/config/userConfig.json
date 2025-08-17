@@ -1,0 +1,17 @@
+{
+    "username": "testUser",
+    "firstname": "User",
+    "lastname": "Test",
+    "email": "test.user@test.com",
+    "phone": {
+        "nationality": "FR",
+        "egl": "+33",
+        "number": "6 00 00 00 00"
+    },
+    "preferencedContact": "email",
+    "birth": "01-01-2000",
+    "nationality": "France",
+    "gender": "NA",
+    "language": "EN",
+    "mode": "dark"
+}
