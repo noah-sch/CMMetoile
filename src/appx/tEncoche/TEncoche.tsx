@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import LanguageBtn from './components/LanguageBtn';
 import ModeBtn from './components/ModeBtn';
@@ -63,6 +63,16 @@ export default function TEncoche(){
                 {/* Encoche sections */}
                 <div className='row-span-4 row-start-7 h-full w-full'>
                     <div className='flex flex-row items-center justify-start h-full w-full gap-4 text-neutral-400/80'>
+                        {/* Section interne actuelle */}
+                        <div className='flex flex-row items-center justify-start h-full gap-4'>
+                            <div className='flex flex-row items-center justify-start border-b border-b-neutral-300 h-full text-neutral-300'>
+                                &#123;&nbsp;Dashboard&nbsp;&#125;
+                            </div>
+                            <div className='py-2 h-full'>
+                                <div className='border-l border-l-neutral-900 h-full'/>
+                            </div>
+                        </div>
+                        {/* Sections externes */}
                         {externalSections.map((extSection, index) => (
                             <div key={index}
                                 className='cursor-pointer hover:text-neutral-300'
